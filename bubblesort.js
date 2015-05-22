@@ -17,10 +17,10 @@
 // Three passes will be required.
 
 // First Pass:
-// ( 5 1 4 2 8 ) \to ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1.
-// ( 1 5 4 2 8 ) \to ( 1 4 5 2 8 ), Swap since 5 > 4
-// ( 1 4 5 2 8 ) \to ( 1 4 2 5 8 ), Swap since 5 > 2
-// ( 1 4 2 5 8 ) \to ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.
+// ( 5 1 4 2 8 ) \to ( 1 5 4 2 8 ) Here, algorithm compares the first two elements, and swaps since 5 > 1.
+// ( 1 5 4 2 8 ) \to ( 1 4 5 2 8 ) Swap since 5 > 4
+// ( 1 4 5 2 8 ) \to ( 1 4 2 5 8 ) Swap since 5 > 2
+// ( 1 4 2 5 8 ) \to ( 1 4 2 5 8 ) Since these elements are already in order (8 > 5), they don't swap.
 
 // Second Pass:
 // ( 1 4 2 5 8 ) \to ( 1 4 2 5 8 )
