@@ -1,12 +1,11 @@
 
 // Selection sort is an in-place comparison sort. 
-
 // Time Complexity: О(n2)
 
 // Basic Idea: 
-// Select the lowest element requires scanning all n elements (this takes n − 1 comparisons) 
-// Then swap it into the first position. 
-// Find the next lowest element by scanning the remaining n − 1 elements and so on..
+// 1. Select the lowest element requires scanning all n elements (this takes n − 1 comparisons) 
+// 2. Swap it into the first position. 
+// 3. Find the next lowest element by scanning the remaining n − 1 elements and so on..
 
 // Example: 
 // 64 25 12 22 11 // this is the initial, starting state of the array
