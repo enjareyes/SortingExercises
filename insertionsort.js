@@ -16,9 +16,7 @@
 
 // Example: 
 
-// The following table shows the steps for sorting the sequence {3, 7, 4, 9, 5, 2, 6, 1}. 
-// In each step, the key under consideration is listed. The key that was moved (or left in 
-// place because it was biggest yet considered) are also listed.
+// The following table shows the steps for sorting the sequence [3, 7, 4, 9, 5, 2, 6, 1]
 
 // 3 7 4 9 5 2 6 1    Key in consideration: 3  
 // 3 7 4 9 5 2 6 1    Key in consideration: 7  Key moved or left: 3
