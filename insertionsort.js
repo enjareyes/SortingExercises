@@ -6,13 +6,13 @@
 // During each iteration, the first remaining element of the input is only compared 
 // with the right-most element of the sorted subsection of the array.
 
-// Worst case:  O(n2) Input is an array sorted in reverse order. The set of all worst case inputs consists 
+// Worst case: O(n2) Input is an array sorted in reverse. The set of all worst case inputs consists 
 // of all arrays where each element is the smallest or second-smallest of the elements before it. In these 
 // cases every iteration of the inner loop will scan and shift the entire sorted subsection of the array before 
-// inserting the next element. This gives insertion sort a quadratic running time.
+// inserting the next element. This gives it a quadratic running time.
 
-// Average case:  O(n2) Also quadratic, which makes insertion sort impractical for sorting large arrays. 
-// However, insertion sort is one of the fastest algorithms for sorting very small arrays, even faster than quicksort.
+// Average case:  O(n2) Also quadratic, making insertion sort impractical for sorting large arrays. 
+// However, insertion sort is one of the fastest algorithms for sorting small arrays.
 
 // Example: 
 
