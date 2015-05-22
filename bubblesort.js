@@ -5,9 +5,9 @@
 // Even other О(n2) sorting algorithms (like insertion sort) tend to have better performance than bubble sort. 
 
 // Basic Idea: 
-// Steps through the list to be sorted
-// Compares each pair of adjacent items and swaps them if they are in the wrong order. 
-// The pass through the list is repeated until no swaps are needed
+// 1. Steps through the list to be sorted
+// 2. Compares each pair of adjacent items and swaps them if they are in the wrong order. 
+// 3. The pass through the list is repeated until no swaps are needed
 
 // Example: 
 
